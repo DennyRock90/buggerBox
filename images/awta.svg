@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1298" height="668" viewBox="0 0 1298 668">
+  <defs>
+    <filter id="awta_forma" x="0" y="0" width="1298" height="668" filterUnits="userSpaceOnUse">
+      <feOffset dx="3" dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#awta_forma)">
+    <path id="awta_forma-2" data-name="awta_forma" d="M1280,0,640,84.2,0,0V565.8L640,650l640-84.2Z" transform="translate(6 5)" fill="#e8aa23"/>
+  </g>
+</svg>

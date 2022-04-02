@@ -4,194 +4,451 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Neuropsico</title>
-
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="style.css">
-
-        <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-
-        <!-- start flickity Slider -->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css" integrity="sha512-BiFZ6oflftBIwm6lYCQtQ5DIRQ6tm02svznor2GYQOfAlT3pnVJ10xCrU3XuXnUrWQ4EG8GKxntXnYEdKY0Ugg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <!-- end flickity Slider -->
+        <title>Wolfpack Wing Tsun</title>
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700;900&family=Martel+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Alegreya&family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;1,600&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="css/style.css">
+    
+        <!-- scrollreveal -->
+        <script src="js/scrollReveal.js"></script>
+		<link rel="shortcut icon" href="images/logo.svg">
     </head>
 
     <body>
-        <div class="header">
+        <div class="header is-open">
             <div class="logo">
-                <img src="Objects/Images/logoNP.png" alt="">
+                <a href="#header"><img src="images/logo.svg" alt=""></a>
             </div>
-            <ul class="menu">
-                <li><a href="">Home</a></li>
-                <li><a href="">Chi siamo</a></li>
-                <li><a href="">Contatti</a></li>
-            </ul>
-            <div class="cta">
-                <a href="" class="button">Contatti</a>
-            </div>
-            <div class="hamburger">
+            <nav class="header__menu-nav">
+                <ul class="header__menu">
+                    <li><a href="#academy">SCUOLA</a></li>
+                    <li><a href="#">AWTA</a></li>
+                    <li><a href="#footer">CONTATTI</a></li>
+                    <div class="social-link">
+                        <a href="https://www.facebook.com/chiara.bassolino.s1/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://api.whatsapp.com/send?phone=393349088691"><i class="fab fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/sihing.gaetano.awta/"><i class="fab fa-instagram"></i> </a>
+                    </div>
+                </ul>
+            </nav>
+            <div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>      
+        </div>
+
+        <a name="header"></a>
+        <div class="hero ppg1">
+            <div class="hero__content mt3 reveal-botton">
+                <h1>ARTE MARZIALE</h1>
                 <span></span>
+                <h2>WOLFPACK WING TSUN</h2>
                 <span></span>
-                <span></span>
+                <p>LA PRIMA SCUOLA DI WING TSUN AWTA </p>
+                <p> DI POMIGLIANO D’ARCO</p>
+                <div class="hero__content-social">
+                    <a href="https://www.facebook.com/chiara.bassolino.s1/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=393349088691"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.instagram.com/sihing.gaetano.awta/"><i class="fab fa-instagram"></i> </a>
+                </div>
+  
             </div>
         </div>
 
-        <div class="hero">
-            <div class="hero__content reveal">
-                <p class="intro-text">Intro Text</p>
-                <h1 class="big-text">Titolo pagina Web</h1>
-                <a href="" class="button">Discover More</a>
+        <div class="bg-cover">
+            <div class="bg-cover__box">
+                <p class="bg-cover__box-text">“Le parti del corpo attaccate si caricano della forza <br> dell’attacco stesso e rilasciano l’energia <br> direttamente contro chi per primo l’ha generata.”</p>
+                <p class="bg-cover__cit">-Dai-Sifu Michele Stellato</p>
             </div>
         </div>
 
-        <div class="poster mt2">
-            <div class="poster__img reveal">
-            </div>
-
-            <div class="poster__content reveal">
-                <h3 class="big-text">Titolo della pagina</h3>
-                <p>Dio non ti guarisce noi si, Dio non ti guarisce noi si, Dio non ti guarisce noi si, Dio non ti guarisce noi si, Dio non ti guarisce noi si,</p>
-                <a href="" class="button"> Call to action</a>
+        <a name="academy"></a>
+        <div id="academy-wing-tsun" class="ppg1">
+            <div class="academy-wing-tsun__content mt2">
+                <div class="col jct3 alt1 wdt2">
+                    <div class="academy-wing-tsun-img">
+                        <img src="images/img_accademia.png" alt="">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="academy-wing-tsun-text">
+                        <h1>LA NOSTRA</h1>
+                        <h2>ACCADEMIA</h2>
+                        <p class="unnamed-character-style-1">  <br> Lorem ipsum dolor sit amet, consectet ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod locitas. 
+                        <p class="unnamed-character-style-1"> <br> Quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in in vulputate velit esse molestie consequat, vel illum dolore eu.</p> 
+                        <p class="unnamed-character-style-1">  <br> Accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te nulla facilisi. Lorem ipsum dolor sit amet, cons ectetuer.</p>
+                        <a href="#calendar">SCOPRI IL CALENDARIO!</a>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <div class="bg-cover mt2">
-            <div class="bg-cover__title reveal">
-                <h3 class="big-text">Titolo del mio blocco cover</h3>
-            </div>
-
-            <div class="bg-cover__text reveal">
-                <h4 class="normal-text">Titolo del mio paragrafo</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <h4 class="normal-text">Titolo del mio paragrafo</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <h4 class="normal-text">Titolo del mio paragrafo</h4>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        <div id="coaches" class="ppg2">
+            <div class="coaches__contnent">
+                <div class="coaches__contnent-text reveal-left">
+                    <h1 class="unnamed-character-style-9">I NOSTRI</h1>
+                    <h2 class="unnamed-character-style-4">ALLENATORI</h2>
+                    <p class="unnamed-character-style-1 wdt1">
+                        Quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in in vulputate velit esse molestie consequat, vel illum dolore eu.
+                    </p>
+                </div>
+                <div class="coaches__contnent-dot reveal-left">
+                    <div class="dot dot-first mt6">
+                        <img src="images/img_gae.png" alt="">
+                        <div class="mask">
+                            <h2>Gaetano</h2>
+                            <p>Testo del messagio</p>
+                            <a href="#" class="info">Pulsante</a>
+                        </div>
+                    </div>
+                
+                    <div class="dot dot-first">
+                        <img src="images/img_lor.png" alt="">
+                        <div class="mask">
+                            <h2>Lorenzo</h2>
+                            <p>Testo del messagio</p>
+                            <p class="unnamed-character-style-1 wdt1">Lorem ipsum dolor sit amet, consectet ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod locitas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="coaches__contnent-page">
+                    <div class="coaches__contnent-page-title">
+                        <p>RESPONSABILE TECNICO</p>
+                    </div>
+                    <div class="coaches__contnent-page-contnent">
+                        <img src="./images/img_gae2.png" alt="">
+                        <h4>SI-HING</h4>
+                        <h1>GAETANO RICCHEZZA</h1>
+                        <div class="coaches__contnent-page-contnent-info">
+                        <p><i class="fas fa-play"></i>&nbsp certiﬁed AWTA instructor</p>
+                        <p><i class="fas fa-play"></i>&nbsp 2° grado superiore</p>
+                        <p><i class="fas fa-play"></i>&nbsp 7 anni di insegnamento</p>
+                        <p><i class="fas fa-play"></i>&nbsp 13 anni di pratica marziale</p>
+                        </div>
+                        <div class="coaches__contnent-page-contnent-text ppg1">
+                            <span></span>
+                            <p>Lorem ipsum dolor sit amet, consectet magna aliquam erat volutpat. Ut wisi enim ad veniam, quis nostrud exerci.Lorem ipsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                            <span></span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="coaches__contnent-page">
+                    <div class="coaches__contnent-page-title">
+                        <p>PREPARATORE ATLETICO</p>
+                    </div>
+                    <div class="coaches__contnent-page-contnent">
+                        <img src="./images/img_lor2.png" alt="">
+                        <h1>LORENZO ROSSI</h1>
+                        <div class="coaches__contnent-page-contnent-info">
+                            <p><i class="fas fa-play"></i>&nbsp certiﬁed AWTA instructor</p>
+                            <p><i class="fas fa-play"></i>&nbsp 2° grado superiore</p>
+                            <p><i class="fas fa-play"></i>&nbsp 7 anni di insegnamento</p>
+                            <p><i class="fas fa-play"></i>&nbsp 13 anni di pratica marziale</p>
+                        </div>
+                            <div class="coaches__contnent-page-contnent-text ppg1">
+                                <span></span>
+                                <p>Lorem ipsum dolor sit amet, consectet magna aliquam erat volutpat. Ut wisi enim ad veniam, quis nostrud exerci.Lorem ipsum dolor sit amet, adipiscing elit, sed diam nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+                                <span></span>
+                            </div>
+                    </div>
+                </div>
             </div>
         </div>
+    
+        <a name="levels-href"></a>
+        <div class="levels">
+            <div class="levels__contnent ppg5 ppg6">
+                <section class="grid ppg3">
+                    <div class="col alt1">
+                        <div class="route"> 
+                            <h1 class="unnamed-character-style-3">Gradi allievo</h1>
+                            <p data-row-num="0" class="route__row route__label-row">1° Livello</p>
+                            <p data-row-num="1" class="route__row">2°-3° Livello</p>
+                            <p data-row-num="2" class="route__row">4°-5° Livello</p>
+                            <p data-row-num="3" class="route__row">6°-7° Livello</p>
+                            <p data-row-num="4" class="route__row">8°-9° Livello</p>
+                            <p data-row-num="5" class="route__row">10° Livello</p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="route wdt8">
+                            <img class="route__img route__label-img" src="images/fiore_lv1.svg" alt="">
+                            <img class="route__img" src="images/fiore_lv2-3.svg" alt="">
+                            <img class="route__img" src="images/fiore_lv4-5.svg" alt="">
+                            <img class="route__img" src="images/fiore_lv6-7.svg" alt="">
+                            <img class="route__img" src="images/fiore_lv8-9.svg" alt="">
+                            <img class="route__img" src="images/fiore_lv10.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="route jct1"> 
+                            <p class="route__text route__label-text unnamed-character-style-2"><i class="fas fa-play"></i>Al <span>primo livello</span> l’allievo impara i principi del Wing Tsun, come tirare pugni e calci, le basi del footwork e la prima forma del sistema: la <span>Siu Nim Tao</span>, la cui traduzione letterale è “forma della piccola idea”.</p>
+                            <p class="route__text ">2°-3° Livello</p>
+                            <p class="route__text normal-text">4°-5° Livello</p>
+                            <p class="route__text normal-text">6°-7° Livello</p>
+                            <p class="route__text normal-text">8°-9° Livello</p>
+                            <p class="route__text normal-text">10° Livello</p>
+                        </div>
+                    </div>
+                </section>
+            </div>
 
-        <div class="grid mt2">
-            <div class="col reveal">
-                <h3 class="big-text">Lorem Ipsum <br>"is simply"</h3>
+            <div class="levels__contnent-mobile ppg5">
+                <h1 class="unnamed-character-style-10">Gradi allievo</h1>
+                <img src="images/fiori_lvMisti.svg" alt="">
+                <div class="levels__contnent-mobile-text">
+                    <p class="unnamed-character-style-2"><i class="fas fa-play"></i>&nbsp Al <span>primo livello</span> l’allievo impara i principi del Wing Tsun, come tirare pugni e calci, le basi del footwork e la prima forma del sistema: la <span>Siu Nim Tao</span>, la cui traduzione letterale è “forma della piccola idea”.</p>
+
+                    <p class="unnamed-character-style-2"><i class="fas fa-play"></i>&nbsp Al <span>secondo e terzo livello</span> l’allievo impara i principi del Wing Tsun, come tirare pugni e calci, le basi del footwork e la prima forma del sistema: la <span>Siu Nim Tao</span>, la cui traduzione letterale è “forma della piccola idea”.</p>
+
+                    <p class="unnamed-character-style-2"><i class="fas fa-play"></i>&nbsp Al <span>quarto e quinto livello</span> l’allievo impara i principi del Wing Tsun, come tirare pugni e calci, le basi del footwork e la prima forma del sistema: la <span>Siu Nim Tao</span>, la cui traduzione letterale è “forma della piccola idea”.</p>
+
+                    <p class="unnamed-character-style-2"><i class="fas fa-play"></i>&nbsp Al <span>sesto e settimo livello</span> l’allievo impara i principi del Wing Tsun, come tirare pugni e calci, le basi del footwork e la prima forma del sistema: la <span>Siu Nim Tao</span>, la cui traduzione letterale è “forma della piccola idea”.</p>
+
+                    <p class="unnamed-character-style-2"><i class="fas fa-play"></i>&nbsp Al <span>ottavo e nono livello</span> l’allievo impara i principi del Wing Tsun, come tirare pugni e calci, le basi del footwork e la prima forma del sistema: la <span>Siu Nim Tao</span>, la cui traduzione letterale è “forma della piccola idea”.</p>
+
+                    <p class="unnamed-character-style-2"><i class="fas fa-play"></i>&nbsp Al <span>decimo livello</span> l’allievo impara i principi del Wing Tsun, come tirare pugni e calci, le basi del footwork e la prima forma del sistema: la <span>Siu Nim Tao</span>, la cui traduzione letterale è “forma della piccola idea”.</p>
+                </div>
             </div>
-            <div class="col reveal">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+
+            <a name="levelsSuperiors-href"></a>
+            <div class="levels__arrows"><i class="fas fa-forward fa-rotate-90 "></i></div>
+
+            <div class="levels-superiors ppg5">
+                    <div class="levels-superiors__img">
+                        <h1 class="unnamed-character-style-10">GRADI SUPERIORI</h1>
+                        <img src="images/fiore_grado_superiore.svg" alt="">
+                    </div>
+                    
+                    <div class="levels-superiors__text">
+                        <h1 class="unnamed-character-style-10">GRADI SUPERIORI</h1>
+                        <p class="unnamed-character-style-2">Lorem ipsum dolor sit amet, consectet magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud tota exerci. Pore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nos tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis consectetuer adipiscing elit, sed diam nonummy nibh.</p>
+                    </div> 
             </div>
+            <div class="awta__arrow"><div class="levels__arrows-bottom"></div></div>
         </div>
 
-        <!-- Start flickity Slider "data-flickity='{ "cellAlign": "left", "contain": true }'" -->
-        <div class="main-carousel" data-flickity='{ "cellAlign": "left", "contain": true }'>
-            <div class="carousel-cell"> 
-                <div class="carousel-cell__content border-blue zoom">
-                    <p>Testo</p> 
-                </div>
-            </div>
-
-            <div class="carousel-cell"> 
-                <div class="carousel-cell__content border-green zoom">
-                    <p>Testo</p> 
-                </div>
-            </div>
-
-            <div class="carousel-cell"> 
-                <div class="carousel-cell__content border-pink zoom">
-                    <p>Testo</p> 
-                </div>
-            </div>
-
-            <div class="carousel-cell"> 
-                <div class="carousel-cell__content border-sky zoom">
-                    <p>Testo</p> 
-                </div>
-            </div>
-
-            <div class="carousel-cell"> 
-                <div class="carousel-cell__content border-violet">
-                    <p>Testo</p> 
-                </div>
-            </div>
-
-            <div class="carousel-cell"> 
-                <div class="carousel-cell__content border-blue">
-                    <p>Testo</p> 
-                </div>
-            </div>
-
-            <div class="carousel-cell"> 
-                <div class="carousel-cell__content border-green">
-                    <p>Testo</p> 
-                </div>
-            </div>
-         </div>
-         <!-- End flickity Slider -->
-
-         <div class="panel-blue"> <!-- Altrimente non viene coperto tutto lo svondo avendo la grid un maw-width-->
-            <div class="grid panel-blue">
-                <div class="col panel-blue__dots">
-                   <div class="dot">Text</div>
-                   <div class="dot">Text</div>
-                   <div class="dot">Text</div>
-                   <div class="dot">Text</div>
-                </div>
-                <div class="col panel-blue__text">
-                   <div class="grid">
-                       <div class="col">
-                           <h3 class="big-text text-withe">Lorem Ipsum</h3>
-                       </div>
-                       <div class="col">
-                           <p class="text-withe panel-blue__text-padding">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                       </div>
-                   </div>
-               </div>
-            </div>
-         </div>
-
-         <footer class="footer mt2">
-            <div class="grid">
-                <div class="col footer__padding">
-                    <h3 class="medium-text2 text-withe">Lorem Ipsum</h3>
-                    <p class="text-withe">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                </div>
-                <div class="col footer__padding">
-                    <h3 class="medium-text2 text-withe">Lorem Ipsum</h3>
-                    <p class="text-withe">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                </div>
-                <div class="col footer__padding">
-                    <h3 class="medium-text2 text-withe">Lorem Ipsum</h3>
-                    <p class="text-withe">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                </div>
-                <div class="col footer__padding">
-                    <h3 class="medium-text2 text-withe">Lorem Ipsum</h3>
-                    <p class="text-withe">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
-                </div>
-            </div>
-         </footer>
-
-        <!-- Start Jquery -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         
-        <!-- start flickity Slider -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js" integrity="sha512-cA8gcgtYJ+JYqUe+j2JXl6J3jbamcMQfPe0JOmQGDescd+zqXwwgneDzniOd3k8PcO7EtTW6jA7L4Bhx03SXoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-        <!-- end flickity Slider -->
+        <div class="learner ppg1" >
+            <div class="learner__text">
+                <h1 class="unnamed-character-style-9">I NOSTRI</h1>
+                <h2 class="unnamed-character-style-4">ALLIEVI</h2>
+                <p class="unnamed-character-style-1 wdt1">
+                    Quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in in vulputate velit esse molestie consequat, vel illum dolore eu.
+                </p>
+            </div>
+            <div class="learner__slider">		
+				<div class="slider-container1">
+					<div class="slider-container2">
+						<section id="pagine">
+	    					<input type="radio" name="inp" id="inp1" checked>
+		    				<input type="radio" name="inp" id="inp2">
+			    			<input type="radio" name="inp" id="inp3">
+				    		<input type="radio" name="inp" id="inp4">
+					    	<input type="radio" name="inp" id="inp5">
 
-        <script>
-            $(document).ready(function(){
-                /* Open Panel*/
-                $(".hamburger").on('click',function(){
-                    $(".menu").toggleClass("menu--open");
-                });
-            });
+						    <div id="page1" class="page1">
+                                <div><img src="images/img_recensioni.png" alt=""></div>
+                                <div class="pagine__text">
+                                    <p class="unnamed-character-style-11">Lorem ipsum dolor sit amet, consectet magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud tota exerci. Pore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nos tatio.</p>
+                                    <p class="pagine__text-cit unnamed-character-style-12">FELICE - 2° ALLIEVI</p>
+                                </div>
+                            </div>
 
-            ScrollReveal().reveal('.reveal', {distance: '80px', duration: 2000, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600});
-            ScrollReveal().reveal('.zoom', {mobile: false, duration: 2000, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65});
-        </script>
-        <!-- End Jquery -->
+		    				<div id="page2" class="page2">
+                                <div><img src="images/img_recensioni.png" alt=""></div>
+                                <div class="pagine__text">
+                                    <p class="unnamed-character-style-11">Lorem ipsum dolor sit amet, consectet magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud tota exerci. Pore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nos tatio.</p>
+                                    <p class="pagine__text-cit unnamed-character-style-12">FELICE - 2° ALLIEVI</p>
+                                </div>
+                            </div>
 
+			    			<div id="page3" class="page3">
+                                <div><img src="images/img_recensioni.png" alt=""></div>
+                                <div class="pagine__text">
+                                    <p class="unnamed-character-style-11">Lorem ipsum dolor sit amet, consectet magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud tota exerci. Pore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nos tatio.</p>
+                                    <p class="pagine__text-cit unnamed-character-style-12">FELICE - 2° ALLIEVI</p>
+                                </div>
+                            </div>
+
+				    		<div id="page4" class="page4">
+                                <div><img src="images/img_recensioni.png" alt=""></div>
+                                <div class="pagine__text">
+                                    <p class="unnamed-character-style-11">Lorem ipsum dolor sit amet, consectet magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud tota exerci. Pore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nos tatio.</p>
+                                    <p class="pagine__text-cit unnamed-character-style-12">FELICE - 2° ALLIEVI</p>
+                                </div>
+                            </div>
+
+					    	<div id="page5" class="page5">
+                                <div><img src="images/img_recensioni.png" alt=""></div>
+                                <div class="pagine__text">
+                                    <p class="unnamed-character-style-11">Lorem ipsum dolor sit amet, consectet magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud tota exerci. Pore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nos tatio.</p>
+                                    <p class="pagine__text-cit unnamed-character-style-12">FELICE - 2° ALLIEVI</p>
+                                </div>
+                            </div>
+				    	</section>
+					</div>
+					<div id="slider__btn-right" class="slider__btn"><i class="fas fa-play"></i></div>
+					<div id="slider__btn-left" class="slider__btn"><i class="fas fa-play fa-rotate-180"></i></div>
+				</div>
+            </div>
+        </div>
+
+        <div class="awta">
+            <div class="awta__arrow"><div class="awta__arrow-page-down-top"></div></div>
+            <div class="awta__content ppg1 ppg6">
+                <div class="awta__img">
+                    <img src="./images/awta_logo.svg" alt="">
+                </div>
+                
+                <div class="awta__text">
+                    <h1 class="unnamed-character-style-18">AUTHENTIC WING TSUN ACADEMY</h1>
+                    <p class="unnamed-character-style-11">
+                        L’<span>AWTA</span> è l’accademia privata di<span>Sifu Michele Stellato</span> ed è un’organizzazione in cui non si lascia nulla al caso. I programmi sono sviluppati da professionisti del settore, artisti marziali che praticano da <span>oltre 30 anni</span> e che si sono focalizzati su una didattica ben congegnata, che permette un apprendimento a tutto tondo della disciplina marziale. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit.
+                    </p>
+                </div>             
+            </div>
+            <div class="awta__arrow"><div class="awta__arrow-page-down-bottom"></div></div>
+        </div>
+
+    <a name="calendar"></a>
+    <div class="calendar ppg7">
+        <div class="calendar__content">                
+            <h1 class="unnamed-character-style-21">IL NOSTRO</h1>
+            <h2 class="unnamed-character-style-20">CALENDARIO</h2>
+            <p class="unnamed-character-style-19 wdt1">
+                Ci alleniamo 2 volte al giorno in gruppo in più c’è la possibilità il sabato di programmare allenamenti privati e individuali.
+            </p>
+            <p class="unnamed-character-style-19 wdt1">
+               <br>Gli eventi e i seminari AWTA si svolgono 3 o 4 volte l’anno e sono invitati tutti gli allievi di tutte le scuole dell’accademia.
+            </p>
+            <div class="calendar__info mt5">
+                <div class="calendar__info-text">
+                    <p class="unnamed-character-style-22">ALLENAMENTO<br>DI GRUPPO:</p>
+                    <p class="unnamed-character-style-23"><i class="fas fa-calendar-days"></i>&nbsp martedì e giovedì</p>
+                    <p class="unnamed-character-style-23"><i class="fas fa-clock"></i>&nbsp 20:00 - 21:30</p>
+                </div>
+                <div class="calendar__info-text">
+                    <p class="unnamed-character-style-22">ALLENAMENTO<br>INDIVIDUALE:</p>
+                    <p class="unnamed-character-style-23"><i class="fas fa-calendar-days"></i>&nbsp sabato</p>
+                    <p class="unnamed-character-style-23"><i class="fas fa-clock"></i>&nbsp su appuntamento</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <a name="footer"></a>
+    <div class="footer ppg8">
+        <h1 class="unnamed-character-style-13">WOLFPACK WING TSUN</h1>
+        <h2 class="unnamed-character-style-14">in breve:</h2>
+
+        <div class="footer__view ppg3">
+            <div class="footer__view-link">
+                <a href="#academy"><li class="wdt5">ACCADEMIA</li></a>
+                <a href="#levels-href"><li class="wdt5">GRADI ALLIEVO</li></a>
+            </div>
+
+            <div class="footer__view-link">
+                <a href="#levelsSuperiors-href"><li>GRADI SUPERIORI</li></a>
+                <div class="nowrap">
+                    <li>AWTA</li><p>&nbsp-&nbsp link esterno&nbsp</p><a href="https://www.awta.it/" target=”_blank”>awta.it</a>
+                </div>                
+            </div>
+            
+            <div class="footer__view-up-mobile">
+                <a href="#header"><i class="fas fa-arrow-circle-up"></i></a>
+            </div>
+        </div>
+
+        <span></span>
+            
+        <div class="footer__view ppg3">
+            <div class="footer__view-link">
+                <h1 class="unnamed-character-style-15">GAETANO RICCHEZZA</h1>
+                <a href="index.html" class="unnamed-character-style-16">wolfpack.wingtsun.it</a>
+            </div>
+            <div class="footer__view-social">
+                <h1 class="unnamed-character-style-15">SOCIAL:</h1>
+                <div>
+                    <a href="https://www.facebook.com/chiara.bassolino.s1/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sihing.gaetano.awta/"><i class="fab fa-instagram"></i> </a>
+                </div>
+            </div>
+            <div class="footer__view-contact">
+                <h1 class="unnamed-character-style-15">CONTATTI</h1>
+                <div class="footer__info">
+                    <a href="https://api.whatsapp.com/send?phone=393349088691" class="unnamed-character-style-17"><i class="fab fa-whatsapp"></i>327 638 9350</a>
+                </div>
+
+                <div class="footer__info">
+                    <a href="mailto:g.ricchezza@gmail.com?subject=Informazioni corsi" class="unnamed-character-style-17"><i class="fas fa-envelope"></i>g.ricchezza@gmail.com</a>
+                </div>
+            </div>
+        </div>
+            
+        <span></span>
+
+        <div class="footer__view ppg3">
+            <div class="footer__view-link">
+                <h1 class="unnamed-character-style-15">presso ACCADEMIA ORIENTE</h1>
+                <a href="https://www.accademiaoriente.it/" target=”_blank” class="unnamed-character-style-16">accademiaoriente.it</a>
+            </div>
+            <div class="footer__view-social">
+                <h1 class="unnamed-character-style-15">SOCIAL:</h1>
+                <div>
+                    <a href="https://www.facebook.com/chiara.bassolino.s1/"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/sihing.gaetano.awta/"><i class="fab fa-instagram"></i> </a>
+                </div>
+            </div>
+            <div class="footer__view-contact">
+                <h1 class="unnamed-character-style-15">CONTATTI</h1>
+                <div class="footer__info">
+                    <a href="tel:+390818031848" class="unnamed-character-style-17"><i class="fas fa-phone fa-flip-horizontal" ></i>081 803 1848</a>
+                </div>
+
+                <div class="footer__info">
+                    <a href="mailto:accademiaoriente@gmail.com?subject=Informazioni corsi" class="unnamed-character-style-17"><i class="fas fa-envelope"></i>accademiaoriente@gmail.com</a>                        
+                </div>
+            </div>
+            <div class="footer__view-address">
+                <h1 class="unnamed-character-style-15">INDIRIZZO</h1>
+                    <div class="footer__info">
+                    <a href="https://api.whatsapp.com/send?phone=393349088691"><i class="fas fa-map-marker-alt"></i></a>
+                    <a href="https://www.google.com/maps/dir//Via+Antonio+de+Curtis+80038+Pomigliano+d'Arco+NA/@40.911888,14.3815452,16z/data=!4m8!4m7!1m0!1m5!1m1!1s0x133baecb0d2a35f1:0xea7abca98a5c7196!2m2!1d14.3815452!2d40.911888" target=”_blank”><p class="unnamed-character-style-17">via Fiuggi, parco Luna Pomigliano d’Arco (NA)</p></a>
+                </div>
+            </div>
+            <div class="footer__view-up">
+                <a href="#header"><i class="fas fa-arrow-circle-up"></i></a>
+            </div>
+        </div>
+
+        <div class="footer__view ppg3">
+            <div class="footer__view-up-mobile-again">
+                <a href="#header"><i class="fas fa-arrow-circle-up"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>©2022 - Wolfpack WingTsun by Daniele Guarracino, Chiara Bassolino. All rights reserved.</p>
+    </div>
+
+    <!-- -->
+    <script>
+        ScrollReveal().reveal('.reveal-botton', {distance: '80px', duration: 2000, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600});
+        ScrollReveal().reveal('.reveal-left', {distance: '80px', origin: 'left', duration: 1000, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 500});
+    </script>
+
+    <script src="js/headerScroll.js"></script>
+    <script src="js/menuMobile.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/shadowImage.js"></script>
 
     </body>
 </html>
