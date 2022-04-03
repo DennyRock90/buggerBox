@@ -1,7 +1,7 @@
-//const dotPage       = document.getElementById('dot-page');//Recuperato il wrapper delle etichette //Daniele Guarracino 20/02/2022 no dots
+const dotPage       = document.getElementById('dot-page');//Recuperato il wrapper delle etichette //Daniele Guarracino 20/02/2022 no dots
 const arrowRight    = document.getElementById('slider__btn-right');
 const arrowLeft     = document.getElementById('slider__btn-left');
-//const labels        = document.querySelectorAll('#dot-page > label'); //Daniele Guarracino 20/02/2022 no dots
+const labels        = document.querySelectorAll('#dot-page > label'); //Daniele Guarracino 20/02/2022 no dots
 const pages        = document.querySelectorAll('#pagine > input');
 const pagine        = document.getElementById('pagine');
 const radioBtn      = document.querySelectorAll('#pagine > input[type=radio]'); /*Recupero gli elementi di tipo radio (tocco, ecc)*/
@@ -13,7 +13,7 @@ arrowRight.myParam  = "right";
 arrowLeft.myParam   = "left";
 
 /*Aggiunto un Listener per il wrapper delle etichette in ascolto dell'evento click*/
-//dotPage.addEventListener('click', changePage); //Daniele Guarracino 20/02/2022 no dots
+dotPage.addEventListener('click', changePage); //Daniele Guarracino 20/02/2022 no dots
 arrowRight.addEventListener('click', touchArrow);
 arrowLeft.addEventListener('click', touchArrow);
 
@@ -23,11 +23,11 @@ pagine.addEventListener('mouseup', clickEnd, {passive: true});
 pagine.addEventListener('touchstart', touchStart, {passive: true});
 pagine.addEventListener('touchend', touchEnd, {passive: true});
 
-/*function changePage(e){ //Daniele Guarracino 20/02/2022 no dots
+function changePage(e){ //Daniele Guarracino 20/02/2022 no dots
     if(e.target.nodeName === 'LABEL'){ //Se è stato fatto un click sull'etichetta è stato richiesto il cambio pagina
     goToPage(e.target.dataset.page - 1);
     }
-}*/
+}
 
 function clickStart(e){
     toccoInizioX=e.offsetX;
@@ -61,8 +61,8 @@ function moveTo(direction){
 }
 
 function goToPage(newPage){
-    //labels[paginaCorrente].classList.remove('lab-sel');//Daniele Guarracino 20/02/2022 no dots
-    //labels[newPage].classList.add('lab-sel');//Daniele Guarracino 20/02/2022 no dots
+    labels[paginaCorrente].classList.remove('lab-sel');//Daniele Guarracino 20/02/2022 no dots
+    labels[newPage].classList.add('lab-sel');//Daniele Guarracino 20/02/2022 no dots
     radioBtn[newPage].checked = true;
     paginaCorrente = newPage;
 }

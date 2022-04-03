@@ -6,10 +6,10 @@ let existOpenMenu = "";
 function manageMenu(exist){
     if(exist === false){
         divMenu.classList.add("menu--open");
-        document.querySelector("body").classList.add("noScrollY");
+        document.querySelector("html").classList.add("noScrollY");
     }else if (exist === true) {
         divMenu.classList.remove("menu--open");
-        document.querySelector("body").classList.remove("noScrollY");
+        document.querySelector("html").classList.remove("noScrollY");
     }
 }
 
