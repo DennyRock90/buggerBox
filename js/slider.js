@@ -2,7 +2,7 @@ const dotPage       = document.getElementById('dot-page');//Recuperato il wrappe
 const arrowRight    = document.getElementById('slider__btn-right');
 const arrowLeft     = document.getElementById('slider__btn-left');
 const labels        = document.querySelectorAll('#dot-page > label'); //Daniele Guarracino 20/02/2022 no dots
-const pages        = document.querySelectorAll('#pagine > input');
+const pages         = document.querySelectorAll('#pagine > input');
 const pagine        = document.getElementById('pagine');
 const radioBtn      = document.querySelectorAll('#pagine > input[type=radio]'); /*Recupero gli elementi di tipo radio (tocco, ecc)*/
 let toccoInizioX    = 0;

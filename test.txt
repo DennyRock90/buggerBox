@@ -26,37 +26,3 @@
 @media screen and (max-width: 400px){
 
 }
- 
- unnamed-character-style-4
-
-route
-
-.unnamed-character-style-2 {
-  font-family: var(--unnamed-font-family-nunito-sans);
-  font-style: var(--unnamed-font-style-normal);
-  font-weight: var(--unnamed-font-weight-normal);
-  font-size: var(--unnamed-font-size-17);
-  line-height: var(--unnamed-line-height-20);
-  letter-spacing: var(--unnamed-letter-spacing-0-00);
-  color: var(--unnamed-color-ffffff);
-}
-
-.unnamed-character-style-18{
-  font-family: var(--unnamed-font-family-nunito-sans);
-  font-style: var(--unnamed-font-style-normal);
-  font-weight: var(--unnamed-font-weight-extra-bold);
-  font-size: var(--unnamed-font-size-37);
-  line-height: var(--unnamed-line-height-43);
-  letter-spacing: var(--unnamed-letter-spacing-2-40);
-  color: var(--unnamed-color-ffffff);
-}
-
-.unnamed-character-style-11 {
-  font-family: var(--unnamed-font-family-nunito-sans);
-  font-style: var(--unnamed-font-style-normal);
-  font-weight: var(--unnamed-font-weight-normal);
-  font-size: var(--unnamed-font-size-18);
-  line-height: var(--unnamed-line-height-20);
-  letter-spacing: var(--unnamed-letter-spacing-0-00);
-  color: var(--unnamed-color-000000);
-}
